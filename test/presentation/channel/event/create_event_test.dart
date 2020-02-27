@@ -81,7 +81,7 @@ void main() {
       await tester.pumpAndSettle();
 
       // TODO: There seems to be a bug in this tap action, skipping test
-      // Select user with name "User2"
+      // Select user with name "User"
       await tester.tap(find.byKey(Key("userId2.InkWell")));
       await tester.pumpAndSettle();
 
